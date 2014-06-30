@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="main">
  *
- * @package _tk
+ * @package Mo
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
