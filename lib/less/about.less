@@ -1,0 +1,152 @@
+.about-mast {
+	background: url(../img/squeeze_mast.jpg) no-repeat center center;
+	.background-size(cover);
+	padding: 240px 0 180px;
+}
+
+.why-marketing {
+	background: url(../img/why_marketing.jpg) no-repeat center center;
+	.background-size(cover);
+	padding: 80px 0;
+	color: #c7a871;
+
+	h3 {
+		color: #fff;
+		margin-top: 0;
+	}
+
+	.section-title {
+		color: #fff;
+		margin-bottom: 80px;
+
+		span {
+			background: #5b5b5b;
+		}
+	}
+}
+
+.section-title {
+	span {
+		display: inline-block;
+		max-width: 90%;
+	}
+}
+
+.my-story {
+	.col-sm-4 {
+		padding: 0;
+		display: table!important;
+	}
+
+	.row {
+		max-width: 100%;
+		margin: 0;
+	}
+
+	p {
+		text-align: center;
+		color: #fff;
+		z-index: 101;
+		position: relative;
+		.opacity(0);
+		.transition(all .5s ease);
+
+		span {
+			max-width: 80%;
+			padding: 20px 30px;
+			border: 2px solid #c7a871;
+		}
+	}
+
+	.shadow {
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.6);
+		position: absolute;
+		top: 0;
+		left: 0;
+		.opacity(0);
+		.transition(all .25s ease);
+	}
+
+	.maintain-aspect {
+		display: table-cell!important;
+		vertical-align: middle;
+		height: 300px;
+
+		&:hover {
+			p, .shadow {
+				.opacity(1);
+			}
+		}
+	}
+
+	.meditation {
+		background: url(../img/nick_meditation.jpg) no-repeat center center;
+		.background-size(cover);
+	}
+	
+	.jacket {
+		background: url(../img/nick_coat.jpg) no-repeat center center;
+		.background-size(cover);
+	}
+
+	.nasdaq {
+		background: url(../img/nick_nasdaq.jpg) no-repeat center center;
+		.background-size(cover);
+	}
+}
+
+.overcome {
+	background: #312a23;
+	padding: 80px 0;
+	color: #c7a871;
+
+	p {
+		text-align: center;
+	}
+
+	.section-title {
+		color: #fff;
+		span {
+			background: #312a23;	
+		}
+	}
+}
+
+.bio {
+	background: url(../img/nick_about.jpg) no-repeat center center;
+	.background-size(cover);
+	padding: 80px 0;
+
+	.col-md-7 {
+		background: url(../img/nav_bg.png) repeat;
+		background: rgba(37,51,66, 0.6);
+		border: 2px solid #c7a871;
+		padding: 0;
+	}
+
+	h2 {
+		border-bottom: 2px solid #c7a871;
+		color: #f7e9d1;
+		padding: 30px 0 30px 40px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-transform: uppercase;
+
+	}
+
+	.content {
+		padding: 40px;
+		color: #c7a871;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.bio {
+		h2 {
+			font-size: 22px;
+			word-wrap: break-word;
+		}
+	}
+}
